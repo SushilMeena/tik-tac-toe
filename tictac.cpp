@@ -56,7 +56,7 @@ for(i=0; ; i++)
     }
 }
 return 0;
-}
+}   //main() ends here 
 
 
 int checkwin(char s[][3])
