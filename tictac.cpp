@@ -5,7 +5,7 @@ using namespace std;
 void print(char[][3]);
 int checkwin(char[][3]);
 
-int main()
+int main() //main() starts
 {
  int i, j, x, y; char mat[3][3];
  for(i=0; i<3; i++)
@@ -57,7 +57,7 @@ for(i=0; ; i++)
 }
 return 0;
 }
-
+//main() ends here
 
 int checkwin(char s[][3])
 {
